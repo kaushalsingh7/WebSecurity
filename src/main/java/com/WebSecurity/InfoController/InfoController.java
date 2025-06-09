@@ -8,6 +8,6 @@ public class InfoController {
 
 	@GetMapping("/")
 	public void welcomePage() {
-		System.out.println("You are signed in");
+		System.out.println("Welcome to the signin page");
 	}
 }
